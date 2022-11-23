@@ -1,0 +1,388 @@
+@import url('https://fonts.cdnfonts.com/css/euclid-circular-a');
+
+body {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 0px 60px;
+    background-color: #CBECFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    z-index: 10;
+    top: 0;
+}
+
+.header_btn {
+    width: 5%;
+    background-color: transparent;
+    border: 0px;
+    color: #29374E;
+    width: 26px;
+    height: 26px;
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 400;
+    font-family: 'Euclid Circular A';
+}
+
+.header_btn:active {
+    color: #0962E8;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main */
+.main_wrapper {
+    padding: 0px 60px;
+    height: 612px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #CBECFF;
+}
+
+.main_box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+
+.main_box_info {
+    width: 30%;
+}
+
+.main_name {
+    font-size: 64px;
+    line-height: 130%;
+    font-weight: 600;
+    color: #29374E;
+    font-family: 'Euclid Circular A';
+    margin: 0 0;
+}
+
+.main_spn {
+    color: #0962E8;
+    background-color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.main_title {
+    font-size: 22px;
+    line-height: 130%;
+    font-weight: 300;
+    color: #29374E;
+    font-family: 'Euclid Circular A';
+}
+
+.btn {
+    background-color: #0962E8;
+    padding: 14px 20px;
+    border-radius: 12px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 140%;
+    font-weight: 400;
+    font-family: 'Euclid Circular A';
+    width: 199px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #29374E;
+}
+
+.main_img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+/* option */
+.options_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: absolute;
+    top: 570px;
+}
+
+.option_box {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 6px 4px 12px #F5F5F5;
+}
+
+.option_title {
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    color: #29374E;
+    font-family: 'Euclid Circular A';
+}
+
+.option_icon {
+    padding: 10px 10px;
+    background-color: #EFF9FF;
+    border-radius: 50%;
+}
+
+
+.title {
+    font-size: 38px;
+    line-height: 130%;
+    font-weight: 400;
+    color: #29374E;
+    font-family: 'Euclid Circular A';
+}
+
+/* product */
+.products_wrapper {
+    padding: 0px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 620px;
+}
+
+.products_title {
+    width: 40%;
+    text-align: center;
+}
+
+.selected_title {
+    color: #0962E8;
+}
+
+.products_box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+
+.product_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #E9F6FF;
+    border-radius: 30px;
+    height: 300px;
+    width: 85%;
+    padding: 20px 21px 0px 37px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.product_info {
+    width: 50%;
+}
+
+.product_title {
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 600;
+    font-family: 'Euclid Circular A';
+}
+
+.product_subtitle {
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 400;
+    font-family: 'Euclid Circular A';
+}
+
+.product_img {
+    width: 218px;
+    height: 291px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -7px;
+    right: 21px;
+}
+
+/* value */
+.value_wrapper {
+    padding: 0px 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 620px;
+    align-items: center;
+}
+
+.value_box {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.benefit {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.value_title {
+    font-family: 'Euclid Circular A';
+}
+
+.value_subtitle {
+    font-size: 14px;
+    line-height: 130%;
+    font-weight: 400;
+    color: #29374E;
+    font-family: 'Euclid Circular A';
+}
+
+.value_icon {
+    background-color: #EFF9FF;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.value_benefit_title {
+    font-size: 14px;
+    line-height: 130%;
+    font-weight: 400;
+    color: #29374E;
+    font-family: 'Euclid Circular A';
+}
+
+
+@media (max-width:375px) {
+    .header {
+        padding: 0px 0px;
+    }
+
+    /* main */
+    .main_wrapper {
+        padding: 0px 0px;
+        height: 780px;
+        flex-direction: column-reverse;
+        justify-content: start;
+    }
+
+    .main_box {
+        width: 100%;
+        height: 30%;
+    }
+
+    .main_box_info {
+        width: 100%;
+    }
+
+    .main_name {
+        font-size: 36px;
+    }
+
+    .main_title {
+        font-size: 16px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    /* option */
+    .options_wrapper {
+        padding: 0px 0px;
+        grid-template-columns: repeat(2, 1fr);
+        top: 500px;
+        width: 375px;
+    }
+
+    .option_box {
+        width: 80%;
+        margin: 5px;
+    }
+
+    .option_title {
+        font-size: 14px;
+    }
+
+    .option_icon {
+        padding: 10px 10px;
+        background-color: #EFF9FF;
+        border-radius: 50%;
+    }
+
+
+    .title {
+        font-size: 24px;
+    }
+
+    /* product */
+    .products_wrapper {
+        padding: 0px 0px;
+        height: 620px;
+    }
+
+    .products_title {
+        width: 100%;
+    }
+
+    .selected_title {
+        color: #0962E8;
+    }
+
+    .products_box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .product_box {
+        height: 215px;
+        width: 80%;
+        margin: 5px;
+    }
+
+    .product_title {
+        font-size: 16px;
+    }
+
+    .product_subtitle {
+        font-size: 13px;
+    }
+
+    .product_img {
+        width: 142px;
+        height: 190px;
+        bottom: -4px;
+        right: 11px;
+    }
+
+    /* value */
+    .value_wrapper {
+        padding: 0px 0px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .value_box {
+        width: 100%;
+    }
+
+    .benefit {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .value_title {
+        font-family: 'Euclid Circular A';
+    }
+
+    .value_benefits {
+        width: 80%;
+        margin: 10px;
+        border-radius: 20px;
+        box-shadow: 6px 4px 12px #F5F5F5;
+    }
+}
